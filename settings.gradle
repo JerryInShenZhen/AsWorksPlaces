@@ -1,1 +1,1 @@
-include ':app', ':crazydemoall', ':keepaccounts'
+include ':app', ':crazydemoall', ':keepaccounts', ':bookpart'
