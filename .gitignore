@@ -19,3 +19,6 @@ bookpart/src/main/res/mipmap-mdpi/ic_launcher.png
 bookpart/src/main/res/mipmap-xhdpi/ic_launcher.png
 bookpart/src/main/res/mipmap-xxhdpi/ic_launcher.png
 bookpart/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+.idea/gradle.xml
+.idea/misc.xml
+.idea/modules.xml

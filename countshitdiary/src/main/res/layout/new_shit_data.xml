@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="产能:   "
+            android:lines="1"
+            android:textSize="30sp"/>
+        <EditText
+            android:id="@+id/et_shit_kg"
+            android:layout_width="0dp"
+            android:inputType="numberDecimal"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="  Kg"
+            android:lines="1"
+            android:textSize="30sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="时间："
+            android:lines="1"
+            android:textSize="30sp"/>
+        <DatePicker
+            android:id="@+id/dp_shit_date"
+            android:layout_width="0dp"
+            android:layout_margin="4dp"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
