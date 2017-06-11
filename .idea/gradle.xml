@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/countshitdiary" />
             <option value="$PROJECT_DIR$/crazydemoall" />
             <option value="$PROJECT_DIR$/keepaccounts" />
+            <option value="$PROJECT_DIR$/stomachmanager" />
           </set>
         </option>
         <option name="myModules">
@@ -24,6 +25,7 @@
             <option value="$PROJECT_DIR$/countshitdiary" />
             <option value="$PROJECT_DIR$/crazydemoall" />
             <option value="$PROJECT_DIR$/keepaccounts" />
+            <option value="$PROJECT_DIR$/stomachmanager" />
           </set>
         </option>
       </GradleProjectSettings>

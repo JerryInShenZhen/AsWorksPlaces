@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/countshitdiary/countshitdiary.iml" filepath="$PROJECT_DIR$/countshitdiary/countshitdiary.iml" />
       <module fileurl="file://$PROJECT_DIR$/crazydemoall/crazydemoall.iml" filepath="$PROJECT_DIR$/crazydemoall/crazydemoall.iml" />
       <module fileurl="file://$PROJECT_DIR$/keepaccounts/keepaccounts.iml" filepath="$PROJECT_DIR$/keepaccounts/keepaccounts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stomachmanager/stomachmanager.iml" filepath="$PROJECT_DIR$/stomachmanager/stomachmanager.iml" />
     </modules>
   </component>
 </project>
