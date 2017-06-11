@@ -104,7 +104,6 @@ public class ListImageDirPopupWindow extends PopupWindow {
         mWidth = outMetrics.widthPixels;
         mHeight = (int) (outMetrics.heightPixels * 0.7);
 
-
     }
 
     private class ListDirAdapter extends ArrayAdapter<FolderBean>{
