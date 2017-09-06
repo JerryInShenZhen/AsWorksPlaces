@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    tools:context="com.coagent.lyscs.bookpart.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Hello World!"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_main"
+        android:layout_height="match_parent">
+
+        <TableRow>
+            <Button
+                android:id="@+id/btn_01"
+                android:text="PopupMenu"/>
+            <Button
+                android:id="@+id/btn_02"
+                android:text="ActionView"/>
+            <Button
+                android:id="@+id/btn_03"
+                android:text="ActionTab"/>
+            <Button
+                android:id="@+id/btn_04"
+                android:text="None"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btn_05"
+                android:text="None"/>
+            <Button
+                android:id="@+id/btn_06"
+                android:text="None"/>
+            <Button
+                android:id="@+id/btn_07"
+                android:text="None"/>
+            <Button
+                android:id="@+id/btn_08"
+                android:text="None"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btn_09"
+                android:text="None"/>
+            <Button
+                android:id="@+id/btn_10"
+                android:text="None"/>
+            <Button
+                android:id="@+id/btn_11"
+                android:text="None"/>
+            <Button
+                android:id="@+id/btn_12"
+                android:text="None"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btn_13"
+                android:text="None"/>
+            <Button
+                android:id="@+id/btn_14"
+                android:text="None"/>
+            <Button
+                android:id="@+id/btn_15"
+                android:text="None"/>
+            <Button
+                android:id="@+id/btn_16"
+                android:text="None"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
