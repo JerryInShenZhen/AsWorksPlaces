@@ -40,7 +40,7 @@ public class SplashActivity extends AppCompatActivity {
      * 进入主界面
      */
     private void enterHome(){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
         finish();
     }

@@ -6,7 +6,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -124,7 +123,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                 setTabTextColorAndImageView(position,positionOffset);// 更改text的颜色还有图片
-                Log.i("MyImageView", "position: "+position+"; positionOffset"+positionOffset);
+                //Log.i("MyImageView", "position: "+position+"; positionOffset"+positionOffset);
             }
 
             @Override

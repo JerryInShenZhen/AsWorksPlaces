@@ -12,5 +12,6 @@ public class ShitBean implements Serializable {
     public String shitDay;
     public String shitHour;
     public String shitMinute;
+    public String shitColor;
     public String shitKg;
 }
