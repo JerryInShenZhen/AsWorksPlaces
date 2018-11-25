@@ -35,26 +35,26 @@
                 android:text="ActionTab"/>
             <Button
                 android:id="@+id/btn_04"
-                android:text="None"/>
+                android:text="ActionCategory"/>
         </TableRow>
         <TableRow>
             <Button
                 android:id="@+id/btn_05"
-                android:text="None"/>
+                android:text="回调"/>
             <Button
                 android:id="@+id/btn_06"
-                android:text="None"/>
+                android:text="hander"/>
             <Button
                 android:id="@+id/btn_07"
-                android:text="None"/>
+                android:text="Bitmap"/>
             <Button
                 android:id="@+id/btn_08"
-                android:text="None"/>
+                android:text="几何"/>
         </TableRow>
         <TableRow>
             <Button
                 android:id="@+id/btn_09"
-                android:text="None"/>
+                android:text="画路径"/>
             <Button
                 android:id="@+id/btn_10"
                 android:text="None"/>

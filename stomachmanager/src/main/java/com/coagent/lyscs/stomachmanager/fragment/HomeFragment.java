@@ -26,4 +26,6 @@ public class HomeFragment extends Fragment {
         lvHome = (ListView) view.findViewById(R.id.lv_home);
         return view;
     }
+
+
 }

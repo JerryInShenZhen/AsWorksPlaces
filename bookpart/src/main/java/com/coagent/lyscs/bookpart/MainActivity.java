@@ -50,22 +50,22 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 goAntherActivity(ActionTabDemo.class);
                 break;
             case R.id.btn_04:
-
+                enterActionCategory(v);
                 break;
             case R.id.btn_05:
-
+                goAntherActivity(Huidiao.class);
                 break;
             case R.id.btn_06:
-
+                goAntherActivity(HandlerDemo.class);
                 break;
             case R.id.btn_07:
-
+                goAntherActivity(BitmapFactoryDemo.class);
                 break;
             case R.id.btn_08:
-
+                goAntherActivity(GeometricViewDemo.class);
                 break;
             case R.id.btn_09:
-
+                goAntherActivity(DrawPathDemo.class);
                 break;
             case R.id.btn_10:
 
@@ -89,6 +89,16 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
                 break;
         }
+    }
+
+    /**
+     * 通过action和category启动activity
+     */
+    private void enterActionCategory(View v) {
+        Intent intent = new Intent();
+        intent.setAction("com.coagent.lysys.action.CRAZYIT_ACTION");
+        intent.addCategory("com.coagent.lysys.category.CRAZYIT_CATEGOTY");
+        startActivity(intent);
     }
 
     /**

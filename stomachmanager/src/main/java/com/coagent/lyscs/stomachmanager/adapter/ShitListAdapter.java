@@ -57,9 +57,9 @@ public class ShitListAdapter extends BaseAdapter {
         }
 
         bean = mList.get(position);
-        String date = bean.shitYear+""+bean.shitMonth+""+bean.shitDay;
+        String date = bean.getShitYear()+""+bean.getShitMonth()+""+bean.getShitDay();
         viewHolder.mTvShitDate.setText(date);
-        viewHolder.mTvShitKg.setText(bean.shitKg);
+        viewHolder.mTvShitKg.setText(bean.getShitKg());
         return convertView;
     }
 

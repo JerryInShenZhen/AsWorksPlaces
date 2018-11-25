@@ -8,6 +8,7 @@
     XmlMenuDemo：XML定义菜单
     ActionViewDemo:ActionBAR是图标自定义
     ActionTabDemo:ActionTab切换Fragment
+    HandlerDemo:hander消息传递
     -->
     <application
         android:allowBackup="true"
@@ -22,12 +23,28 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
         <activity android:name=".ContextMenuDemo"/>
         <activity android:name=".ActionViewDemo"/>
         <activity
             android:name=".ActionTabDemo"
             android:label="@string/title_activity_action_tab_demo">
+        </activity>
+        <activity android:name=".GetActionAndCategoryNameDemo">
+            <intent-filter>
+                <action android:name="com.coagent.lysys.action.CRAZYIT_ACTION"/>
+
+                <category android:name="com.coagent.lysys.category.CRAZYIT_CATEGOTY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Huidiao">
+        </activity>
+        <activity android:name=".HandlerDemo"/>
+        <activity android:name=".BitmapFactoryDemo">
+        </activity>
+        <activity android:name=".GeometricViewDemo">
+        </activity>
+        <activity android:name=".DrawPathDemo">
         </activity>
     </application>
 
